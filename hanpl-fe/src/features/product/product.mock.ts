@@ -1,0 +1,58 @@
+import type { Product } from "./types/product.types";
+
+export const mockProducts: Product[] = [
+  {
+    id: 1,
+    name: "클래식 화이트 티셔츠",
+    price: 29000,
+    image: "https://picsum.photos/seed/product1/400/400",
+    category: "의류",
+    stock: 10,
+    description: "부드러운 면 소재의 클래식한 화이트 티셔츠예요.",
+  },
+  {
+    id: 2,
+    name: "블랙 슬림 팬츠",
+    price: 59000,
+    image: "https://picsum.photos/seed/product2/400/400",
+    category: "의류",
+    stock: 5,
+    description: "슬림한 핏의 블랙 팬츠로 다양한 코디에 활용할 수 있어요.",
+  },
+  {
+    id: 3,
+    name: "무선 블루투스 이어폰",
+    price: 89000,
+    image: "https://picsum.photos/seed/product3/400/400",
+    category: "전자",
+    stock: 0,
+    description: "고음질 사운드와 긴 배터리 수명을 자랑하는 무선 이어폰이에요.",
+  },
+  {
+    id: 4,
+    name: "레더 미니백",
+    price: 120000,
+    image: "https://picsum.photos/seed/product4/400/400",
+    category: "가방",
+    stock: 3,
+    description: "고급 레더 소재의 미니백으로 데일리룩에 잘 어울려요.",
+  },
+  {
+    id: 5,
+    name: "스니커즈",
+    price: 75000,
+    image: "https://picsum.photos/seed/product5/400/400",
+    category: "신발",
+    stock: 8,
+    description: "가볍고 편안한 데일리 스니커즈예요.",
+  },
+  {
+    id: 6,
+    name: "스마트 워치",
+    price: 199000,
+    image: "https://picsum.photos/seed/product6/400/400",
+    category: "전자",
+    stock: 2,
+    description: "건강 관리와 알림 기능을 갖춘 스마트 워치예요.",
+  },
+];
