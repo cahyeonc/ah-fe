@@ -2,7 +2,7 @@
 
 <template>
   <section id="center">
-    <h2>vite + vue + ts</h2>
+    <h2>guide page --</h2>
   </section>
 
   <div class="ticks"></div>
